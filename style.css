@@ -19,7 +19,7 @@ body{
      margin: auto;
  }
  button{
-    background: #E02C6D;;
+    background: #E02C6D;
     border: none;
     margin-bottom: 15px;
    margin-top: 20px;
@@ -103,6 +103,84 @@ button a{
     height: 427px;
  }
 
+
+    /*---------------------
+ upcoming match section  style
+ -----------------------  */
+ .upcoming-match{
+     margin: auto;
+ }
+ .match-title h2{
+     font-size: 50px;
+     margin-bottom: 30px;
+     text-align: center;
+     color: #2D25A0;
+ }
+ .match{
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+ }
+.match h2{
+    font-size: 30px;
+    background: #E02C6D;
+    color: #fff;
+    padding: 5px 40px;
+    border-radius: 30px;
+}
+ .match img{
+     width: 150px;
+     margin-bottom: 20px;
+ }
+
+ .scedule{
+     margin-top: 10px;
+     text-align: center;
+     margin-bottom: 100px;
+ }
+
+
+     /*---------------------
+ awards section  style
+ -----------------------  */
+.awards{
+    font-size: 50px;
+    text-align: center;
+    color: #2D25A0;
+    margin-bottom: 40px;
+}
+ .tropies{
+     display: grid;
+     grid-template-columns: repeat(5, 1fr);
+     justify-content: center;
+     align-items: center;
+     margin-bottom: 60px;
+ }
+ 
+.trophy{
+    transition: transform .2s;
+}
+.trophy:hover{
+    transform: translateY(-20px);
+    transform: scale(1.5);
+}
+.trophy:hover h4{
+    color: #E02C6D;
+}
+.trophy img{
+    width: 100px;
+    padding-left: 60px;
+}
+.trophy h4{
+    margin-top: 5px;
+    padding-left: 60px;
+    
+}
+
+
+/* .trophy h4:hover{
+    transform: translateY(-10px);
+} */
    /*---------------------
  footer section  style
  -----------------------  */
@@ -145,7 +223,7 @@ button a{
         margin: auto;
     }
 
-    .hero-section ,.highlight-section{
+    .hero-section ,.highlight-section ,.match{
         width: 90%;
         display: flex;
         flex-direction: column;
@@ -159,7 +237,7 @@ button a{
         width: 100%;
         height: auto;
      }
-     .players{
+     .players {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         justify-content: center;
@@ -176,5 +254,14 @@ button a{
         width: 100%;
         height: auto;
      }
+     .tropies{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+     }
+     .trophy:hover{
+        transform: translateY(1);
+        transform: scale(1);
+    }
  }
 
