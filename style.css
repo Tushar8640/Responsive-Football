@@ -174,7 +174,6 @@ button a{
 .trophy h4{
     margin-top: 5px;
     padding-left: 60px;
-    
 }
 
 
@@ -255,13 +254,24 @@ button a{
         height: auto;
      }
      .tropies{
+        width: 100%;
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        justify-content: center;
+     }
+     .trophy{
+         margin: auto;
      }
      .trophy:hover{
         transform: translateY(1);
         transform: scale(1);
+    }
+    .trophy img{
+        padding-left: 0px;
+    }
+    .trophy h4{
+        margin-top: px;
+        padding-left: 0px;
+        margin-bottom: 20px;
     }
  }
 
